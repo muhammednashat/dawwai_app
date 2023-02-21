@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دوائى</string>
+    <string name="search">بحث.....</string>
+    <string name="please_set_name">من فضلك ادخل اسم الصنف</string>
+    <string name="home">الرئيسية</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="connect_us">تواصل معنا</string>
+    <string name="social_media">صفحات التواصل الإجتماعي</string>
+    <string name="details">تفاصيل</string>
+    <string name="information">معلومات عن الصنف</string>
+    <string name="name">اسم الصنف</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "971082017651",
+    "project_id": "dwaai-8d573",
+    "storage_bucket": "dwaai-8d573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971082017651:android:189762c04db8e32b467306",
+        "android_client_info": {
+          "package_name": "com.example.dawaai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971082017651-oqbhg3icl10jon2irqeriatia33prrhr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dawaai",
+            "certificate_hash": "91fa8cdd004ec30b5223791da81f40942486fd59"
+          }
+        },
+        {
+          "client_id": "971082017651-ggufftfv8ml4glh31qvred9qh91gj89k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDar38Xkqzz8S82plMSXJXfnT4GAGC5j8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971082017651-ggufftfv8ml4glh31qvred9qh91gj89k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

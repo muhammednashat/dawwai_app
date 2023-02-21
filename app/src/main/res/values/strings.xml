@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dawaai</string>
+    <string name="search">Search.....</string>
+    <string name="please_set_name">Please Set Name Of Item</string>
+    <string name="home">Home</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="connect_us">Connect Us</string>
+    <string name="social_media">Social Media</string>
+    <string name="details">Details</string>
+    <string name="information">Information Of Item</string>
+    <string name="name">Name Of Item</string>
+
+</resources>

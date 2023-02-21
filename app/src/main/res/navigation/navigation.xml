@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/mainScreenFragment">
+
+    <fragment
+        android:id="@+id/mainScreenFragment"
+        android:name="com.example.dawaai.ui.mainScreenFragment.MainScreenFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_main_screen">
+        <action
+            android:id="@+id/action_mainScreenFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+        <action
+            android:id="@+id/action_mainScreenFragment_to_addingFragment"
+            app:destination="@id/addingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.dawaai.ui.detailsFragment.DetailsFragment"
+        android:label="@string/details"
+        tools:layout="@layout/fragment_details" >
+
+        <argument
+            android:name="item"
+            app:argType="com.example.dawaai.data.models.Item" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.example.dawaai.ui.PrivacyPolicyFragment"
+        android:label="@string/privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
+    <fragment
+        android:id="@+id/connectUsFragment"
+        android:name="com.example.dawaai.ui.ConnectUsFragment"
+        android:label="@string/connect_us"
+        tools:layout="@layout/fragment_connect_us" />
+    <fragment
+        android:id="@+id/socialMediaFragment"
+        android:name="com.example.dawaai.ui.SocialMediaFragment"
+        android:label="@string/social_media"
+        tools:layout="@layout/fragment_social_media" />
+    <fragment
+        android:id="@+id/addingFragment"
+        android:name="com.example.dawaai.ui.add.AddingFragment"
+        android:label="AddingFragment" />
+</navigation>
